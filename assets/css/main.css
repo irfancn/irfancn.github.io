@@ -29,9 +29,26 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1; }
-
+/* 
 ol, ul {
-  list-style: none; }
+  list-style: none; } */
+/* Modification of the index class */
+.indexlist li {
+  list-style: none;
+  margin: 0 0 0.3em 0;
+  padding-left: 0;
+  display: block;
+  color: #666666;
+}
+.indexlist ul {
+  margin: 0 0 0 0;
+}
+.indexlist li, .indexlist li a {
+  color: #140000;
+}
+.indexlist li ul li, .indexlist li ul li a {
+  color: #9d0000;
+}
 
 blockquote, q {
   quotes: none; }
